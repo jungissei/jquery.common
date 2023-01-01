@@ -9,5 +9,12 @@
 // ----------------------------------------------------------------------------
 // Page Blocks
 // ----------------------------------------------------------------------------
-@use "./block/content";
-@use "./block/ttl";
+@use "./block/pc/header" as *;
+@use "./block/pc/footer" as *;
+@use "./block/pc/content" as *;
+@use "./block/pc/ttl" as *;
+
+@use "./block/sp/header" as *;
+@use "./block/sp/footer" as *;
+@use "./block/sp/content" as *;
+@use "./block/sp/ttl" as *;

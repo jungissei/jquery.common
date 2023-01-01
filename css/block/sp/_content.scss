@@ -1,0 +1,38 @@
+@use "sass:math";
+@use "../../base/mixin" as *;
+
+
+@include mq(sp){
+  .block_content{
+    // --------------------------------------
+    // 【1】画像+テキスト コンテンツ(PC時2カラム)
+    // --------------------------------------
+    &1 {
+      margin-top: 20px;
+
+      >.block_col {
+        &:not(:last-child){
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    // --------------------------------------
+    // 【2】カード型 コンテンツ
+    // --------------------------------------
+    &2 {
+      >.content_items{
+        >.content_item {
+          margin-bottom: 30px;
+          background-color: #fff;
+          padding: 15px;
+
+          >.item_name{
+            margin-top: 8px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

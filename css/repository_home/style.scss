@@ -3,8 +3,12 @@
 // Page Base
 // ----------------------------------------------------------------------------
 @use "../base/destyle";
-@use "../base/page_layouts" as *;
+@use "../base/page_layouts";
 
 @use "./pc" as *;
-@use "./sp" as *;
+@use "../block/pc/header" as *;
+@use "../block/pc/footer" as *;
 
+@use "./sp" as *;
+@use "../block/sp/header" as *;
+@use "../block/sp/footer" as *;

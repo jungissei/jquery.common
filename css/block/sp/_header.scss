@@ -1,0 +1,19 @@
+@use "sass:math";
+@use "../../base/mixin" as *;
+
+
+@include mq(sp){
+  #template_header{
+    .layout_inner{
+      padding-top: 26px;
+      padding-bottom: 26px;
+    }
+
+    .header_ttl{
+      font-size: 30px;
+      font-weight: 700;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}

@@ -1,6 +1,20 @@
 @use "sass:math";
 @use "./mixin" as *;
 
+body{
+  background-color: #ecd6c7;
+}
+
+img{
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+main{
+  padding-top: 50px;
+}
+
 .page_layout {
 
   &.layout1{

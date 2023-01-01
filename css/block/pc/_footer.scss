@@ -1,0 +1,18 @@
+@use "sass:math";
+@use "../../base/mixin" as *;
+
+
+@include mq(pc){
+  #template_footer{
+    .layout_inner{
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+
+    .footer_txt{
+      text-align: center;
+      color: rgba(228,232,250,.55);
+      font-size: 14px;
+    }
+  }
+}

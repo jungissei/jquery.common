@@ -1,0 +1,12 @@
+@use "sass:math";
+@use "../../base/mixin" as *;
+
+@include mq(pc){
+  h2{
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    padding-bottom: 3px;
+    padding-left: 5px;
+  }
+}

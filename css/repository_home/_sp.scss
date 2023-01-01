@@ -12,51 +12,59 @@
   }
 
   // ----------------------------------------------------------------------------
-  // Header
-  // ----------------------------------------------------------------------------
-  #template_header{
-    .layout_inner{
-      padding-top: 26px;
-      padding-bottom: 26px;
-    }
-
-    .page_ttl{
-      font-size: 30px;
-      font-weight: 700;
-      margin: 0;
-    }
-  }
-
-  // ----------------------------------------------------------------------------
-  // Footer
-  // ----------------------------------------------------------------------------
-  #template_footer{
-    .layout_inner{
-      padding-top: 8px;
-      padding-bottom: 8px;
-    }
-
-    .footer_txt{
-      text-align: center;
-      color: rgba(228,232,250,.55);
-      font-size: 12px;
-    }
-  }
-
-  // ----------------------------------------------------------------------------
   // Demo block
   // ----------------------------------------------------------------------------
-  #demo_block{
-    .block_row{
-      &:not(:last-child){
-        margin-bottom: 35px;
-      }
+  #block_page_items{
+    margin: 0;
+
+    &:not(:last-child){
+      margin-bottom: 25px;
     }
 
-    .block_ttl{
-      font-size: 20px;
-      font-weight: 700;
-      margin-bottom: 16px;
+    li{
+      list-style: none;
+
+      &:not(:last-child){
+        margin-bottom: 10px;
+      }
+
+      a{
+        display: block;
+        padding: 16px 20px 20px;
+        background-color: #2a4150;
+        border-radius: 14px;
+        line-height: 1.5;
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+      }
     }
+  }
+
+  #block_copy_url{
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    .btn_inner{
+      display: inline-block;
+      position: relative;
+      font-size: 14px;
+      background-color: #2a4150;
+      border-radius: 14px;
+      line-height: 1;
+      color: #fff;
+      padding: 16px 60px 20px;
+      text-align: center;
+    }
+
+    .btn_emoji{
+      position: absolute;
+      top: 50%;
+      left: 25px;
+      transform: translate(0, -50%);
+      font-size: 25px;
+    }
+
   }
 }
