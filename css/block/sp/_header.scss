@@ -3,13 +3,13 @@
 
 
 @include mq(sp){
-  #template_header{
+  #template_ttl{
     .layout_inner{
       padding-top: 26px;
       padding-bottom: 26px;
     }
 
-    .header_ttl{
+    .ttl_page{
       font-size: 30px;
       font-weight: 700;
       margin: 0;
