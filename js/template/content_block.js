@@ -5,7 +5,7 @@ document.getElementById('content_block').insertAdjacentHTML('beforeend',`
   <div class="layout_container">
     <div class="layout_width">
 
-      <h2>Content No.1</h2>
+      <h2 class="common_ttl1">Content No.1</h2>
 
       <div class="block_content1">
         <div class="block_col"><img src="/jquery.common/img/dog1.jpg" alt="犬"></div>
@@ -26,7 +26,7 @@ document.getElementById('content_block').insertAdjacentHTML('beforeend',`
     <div class="layout_width">
 
 
-      <h2>Content No.2</h2>
+      <h2 class="common_ttl1">Content No.2</h2>
 
       <div class="block_content1 block_revers">
         <div class="block_col"><img src="/jquery.common/img/dog2.jpg" alt="犬"></div>
@@ -47,7 +47,7 @@ document.getElementById('content_block').insertAdjacentHTML('beforeend',`
   <div class="layout_container">
     <div class="layout_width">
 
-      <h2>Content No.3</h2>
+      <h2 class="common_ttl1">Content No.3</h2>
 
       <div class="block_content1">
         <div class="block_col"><img src="/jquery.common/img/dog3.jpg" alt="犬"></div>
