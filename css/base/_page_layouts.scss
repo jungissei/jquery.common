@@ -21,6 +21,17 @@ main{
   padding-top: 50px;
 }
 
+@include mq(pc){
+  .sp{
+    display: none;
+  }
+}
+@include mq(sp){
+  .pc{
+    display: none;
+  }
+}
+
 .page_layout {
 
   &.layout1{
