@@ -1,4 +1,4 @@
-document.getElementById('content_block').insertAdjacentHTML('beforeend',`
+document.getElementById('content_block').insertAdjacentHTML('beforeend', `
 
 <section id="block_content1" class="page_layout layout1">
 <div class="layout_inner">
